@@ -259,49 +259,14 @@ footer {
   </header>
   <div class="columns">
     <nav class='sidebar' aria-label='Main navigation'>
-           <ul><li><a class='active' href='/'>Home</a></li><li><a href='/Architecture'>Architecture</a></li><li><a href='/AutoUI'>AutoUI</a></li><li><a href='/Native'>Native</a></li><li><a href='/Sails'>Sails</a></li></ul>
+           <ul><li><a href='/'>Home</a></li><li><a href='/Architecture'>Architecture</a></li><li><a class='active' href='/AutoUI'>AutoUI</a></li><li><a href='/Native'>Native</a></li><li><a href='/Sails'>Sails</a></li></ul>
          </nav>
     <main class="content">
-<h1>Interscript: insanely great user interfaces – minus the bookkeeping</h1>
+<h1>Automatic UI generation</h1>
 
-<p>Build the app you want with the UI you need.</p>
+<p>The reflective architecture of Objective-Smalltalk gives full access to obect structure information, allowing basic CRUD user interfaces to be generated automatically like WebObjects Direct2Web or Naked Objects.</p>
 
-<h3>The problem: drudgery or magic</h3>
-
-<p>Too much of UI development is bookkeeping. Constructing controls, connecting them to your model, and keeping everything in sync takes code that says little about what your application actually does.</p>
-
-<p>Mainstream UI frameworks have two ways of dealing witht the bookkeeping:</p>
-
-<ul>
-<li><p>you express those relationships indirectly, through repetitive code</p></li>
-<li><p>framework magic that hides how the pieces connect.</p></li>
-</ul>
-
-<p>Customization then means working around the framework’s assumptions.</p>
-
-<p>Interscript puts you back in charge.</p>
-
-<h3>Direct connection. Automatic coordination.</h3>
-
-<p>Interscript lets you describe both your interface and its connections directly and succinctly. Objective-Smalltalk makes object structures, dataflow, and synchronization relationships part of the language. </p>
-
-<p>You express what connects; Interscript handles the coordination.</p>
-
-<h3>Let your model do more.</h3>
-
-<p>Your model represents the world your application works with: its concepts, structures, and relationships. That knowledge is already there. Put it to work.</p>
-
-<p>Interscript can derive a working interface from your model, or connect a custom interface directly to it. Share the model across native, web, and hybrid interfaces, and shape each experience for the people using it.</p>
-
-<h3>Thin interfaces. Wider reach.</h3>
-
-<p>Less bookkeeping means less UI code to maintain across platforms. Share what your interfaces have in common and tailor what makes each platform different.</p>
-
-<p>Use native controls on macOS, iOS, and Android, or share HTML interfaces through HTMX and HTMXNative. HTMXNative uses native WebViews, giving you HTML’s cross-platform reach without bundling an Electron runtime. Your application logic stays lean in Objective-Smalltalk.</p>
-
-<p>Interscript is taking shape</p>
-
-<p>Interscript is an early-stage project built on working architecture-oriented programming technology. It brings direct UI construction, explicit connections, and model-driven interface generation together into a framework for native, web, and hybrid applications.</p>
+<p>However, the metadata can be seperated from the objects and created, processed and modified independently.  This not only means that UIs can be adapted without having to modify the model, but also that UIs can be created without having model objects at all.</p>
 
     </main>
   </div>
